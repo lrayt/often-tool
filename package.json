@@ -1,0 +1,14 @@
+{
+  "name": "often-tool",
+  "version": "1.0.1",
+  "description": "前端开发常用方法",
+  "main": "index.js",
+  "repository": "https://github.com/lrayt/often-tool.git",
+  "author": "Jospooa",
+  "scripts": {
+    "build": "webpack --config ./webpack.prod.config.js",
+    "start": "webpack serve --config ./webpack.dev.config.js"
+  },
+  "license": "MIT",
+  "private": false
+}
